@@ -59,4 +59,8 @@ public class GTSNode {
         System.out.println(x);
         System.out.println(y);
     }
+
+    public String ToString(){
+        return this.name;
+    }
 }
