@@ -2,6 +2,18 @@ public class GTSLine {
     private GTSNode startNode;
     private GTSNode finishNode;
 
+    public int getTVP() {
+        return TVP;
+    }
+
+    public void setTVP(int TVP) {
+        if (TVP >= 0) {
+            this.TVP = TVP;
+        }
+    }
+
+    private int TVP;
+
     public GTSNode getStartNode() {
         return startNode;
     }
@@ -17,6 +29,4 @@ public class GTSLine {
     public void setFinishNode(GTSNode finishNode) {
         this.finishNode = finishNode;
     }
-
-
 }

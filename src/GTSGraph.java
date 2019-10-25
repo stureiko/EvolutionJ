@@ -1,10 +1,14 @@
 import java.util.logging.Logger;
 
 public class GTSGraph {
-    //private static final Logger log;
+    private static final Logger log;
 
     static {
-        //log = Logger.getLogger(GTSGraph.class);
+        log = Logger.getLogger(String.valueOf(GTSGraph.class));
+    }
+
+    public GTSGraph() {
+        log.info("Graph created");
     }
 
     //          /TODO: add nodes and lines
